@@ -1,3 +1,3 @@
 class Monster < ApplicationRecord
-    has_many :tweet, dependent: :destroy
+    has_many :tweets, dependent: :destroy
 end
